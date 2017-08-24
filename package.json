@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "node node_modules/types-publisher/bin/tester/test.js --run-from-definitely-typed --all",
-    "lint": "dtslint types"
+    "lint": "dtslint types/ember && dtslint types/ember-simple-auth"
   },
   "devDependencies": {
     "dtslint": "Microsoft/dtslint#production",
